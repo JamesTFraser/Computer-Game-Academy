@@ -12,12 +12,14 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('pages', function (Blueprint $table) {
+            $table->id();
             $table->foreignId('user_id');
             $table->string('title');
             $table->string('slug');
             $table->longText('summary')->nullable();
             $table->longText('content')->nullable();
             $table->boolean('is_published')->default(false);
+            $table->timestamps();
         });
     }
 
