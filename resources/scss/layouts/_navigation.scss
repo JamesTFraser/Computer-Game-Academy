@@ -1,0 +1,55 @@
+.nav-mobile {
+    display: block;
+    border-color: $secondary;
+}
+
+.nav-mobile a {
+    text-decoration: none;
+    text-align: center;
+    font-family: bazar, sans, sans-serif;
+    font-size: 2em;
+    display: block;
+}
+
+.nav-mobile .menu-items {
+    display: none;
+}
+
+.nav-mobile .show {
+    display: block;
+}
+
+.nav {
+    justify-content: space-between;
+    border-color: $secondary;
+    display: none;
+}
+
+.nav a,
+.nav p {
+    font-family: bazar;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.nav p {
+    line-height: 1.3em;
+}
+
+@include media-breakpoint-up(xl) {
+
+    .nav a,
+    .nav p {
+        font-size: 4em;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .nav {
+        display: flex;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+}

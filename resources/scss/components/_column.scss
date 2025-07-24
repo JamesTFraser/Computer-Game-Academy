@@ -1,0 +1,29 @@
+.column {
+    column-count: 1;
+    text-align: justify;
+}
+
+.column h2 a {
+    color: $tertiary;
+    text-decoration: none;
+}
+
+.column p::first-letter {
+    font-size: 320%;
+    float: left;
+    line-height: 0.8em;
+    font-family: source-serif-pro, sans, sans-serif;
+    padding: 5px 5px 2px 0;
+}
+
+@include media-breakpoint-up(xxl) {
+    .column {
+        column-count: 2;
+    }
+}
+
+@include media-breakpoint-between(sm, lg) {
+    .column {
+        column-count: 2;
+    }
+}

@@ -1,0 +1,19 @@
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+    xxxl: 1920px
+);
+
+/* Bootstrap requires max widths to be divisible by both 12 and 10 and at least 30px less than the breakpoint. */
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1380px,
+    xxxl: 1860px
+);

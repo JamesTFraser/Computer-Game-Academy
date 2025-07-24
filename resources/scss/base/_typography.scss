@@ -1,0 +1,33 @@
+@font-face {
+    font-family: bazar;
+    src: url(/resources/fonts/bazar.ttf);
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url(/resources/fonts/opensans-regular.ttf);
+}
+
+@font-face {
+    font-family: source-serif-pro;
+    src: url(/resources/fonts/sourceserifpro-regular.ttf);
+}
+
+@font-face {
+    font-family: ritz;
+    src: url(/resources/fonts/ritz.ttf);
+}
+
+p,
+a {
+    font-family: open-sans, sans, sans-serif;
+    color: #edf3ff;
+}
+
+h1,
+h1 a,
+h2 a,
+h3 {
+    font-family: source-serif-pro, sans, sans-serif;
+    font-weight: 100;
+}
