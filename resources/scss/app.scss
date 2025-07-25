@@ -1,6 +1,8 @@
 @import "themes/theme";
 @import "vendor-extensions/bootstrap";
 @import "/node_modules/bootstrap/scss/bootstrap";
+@import '/node_modules/@toast-ui/editor/dist/toastui-editor';
+@import '/node_modules/@toast-ui/editor/dist/theme/toastui-editor-dark';
 @import "base/typography";
 @import "layouts/header";
 @import "layouts/navigation";

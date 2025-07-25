@@ -1,4 +1,6 @@
 import './bootstrap';
+import './dropdown';
+import './editor';
 
 import Alpine from 'alpinejs';
 
